@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome/css/all.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/apple-green.png"> 
+    <title>Glutão</title> 
+    <script src="js/jquery2.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
+</head>
+<body onload="criarJogo()">
+    <header>
+        <div class="container">
+            <h1 class="nome-site fino">Glutão</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="content">  
+            <div class="row">
+                <div id="rules-click" class="left col-3">
+                    <h2 id="rules" class="fino">Regras</h2>
+                    
+                </div><!-- / content-l -->
+
+                <div class="gm col-3">
+                    <h2 class="fino">Game mode</h2>
+                    <div class="game-mode">
+                        <span>
+                            <input type="radio" id="easy" name="mode"  value="easy" 
+                            class="pode">
+                            <label for="easy">Easy</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="medium" name="mode"  value="medium" 
+                            class="pode">
+                            <label for="medium">Medium</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="hard" name="mode"  value="hard" checked
+                            class="pode">
+                            <label for="hard">Hard</label>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="player-click" class="right col-3">
+                    <h2 id="player"  class="fino">Sua vez!</h2>
+                </div><!-- / content-r -->
+            </div>
+            <div class="row">
+                <div class="center col-10">
+                    <button id="comer" class="btn sucess col-tab">Comer</button>
+                    <div id="pecas">
+
+                    </div>
+                    
+                </div><!-- / content-c -->
+            </div>
+        </section> <!-- / container -->
+    </div>
+<!-- / -->
+    
+    <script src="js/jogo.js"></script>
+</body>
+</html>
