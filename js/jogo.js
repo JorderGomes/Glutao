@@ -1,4 +1,4 @@
-const minPecas = 15, maxPecas = 16, minRetirada = 3, maxRetirada = 4;
+const minPecas = 15, maxPecas = 26, minRetirada = 3, maxRetirada = 6;
 var qtdPecas, qtdRetirada, qtdPecasExistentes;
 var pecasSelecionadas = [];
 var qtdSelecionadas = 1;
