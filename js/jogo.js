@@ -96,6 +96,10 @@ $(document).on('click', '.selected', function(e){
 
 
 $("#comer").click(function(){
+    if(pecasSelecionadas.length == 0){
+        console.log("Por favor escolha algumas maçãs");
+        return;
+    }
     // Ação do usuário
     comer();
     // Ação do jogo
