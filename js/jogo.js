@@ -195,8 +195,8 @@ function jogarMedium(){
 function jogarEasy(){
     var qtdARetirar;
     if(qtdRetirada <= qtdPecasExistentes){
-        let qtdRetiradaValida = qtdRetirada + 1;        
-        qtdARetirar = parseInt (Math.random() * (qtdRetiradaValida - 1) + 1);
+        // let qtdRetiradaValida = qtdRetirada + 1;        
+        qtdARetirar = parseInt (Math.random() * (qtdRetirada - 1) + 1);
     }
     else if(qtdRetirada > qtdPecasExistentes){
         var qtdPecasValidas = qtdPecasExistentes - 1;
