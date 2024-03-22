@@ -172,12 +172,7 @@ header{
 }
 
 .rotten{
-    /* color: black; */
     color: #783c00;
-}
-
-.disable{
-    /* color: gray; */
 }
 
 .btn{
@@ -206,8 +201,24 @@ header{
     border-color: green;
 }
 
+/* feedback */
 
+.feedback-link{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
 
+/* media */
 
 @media screen and (max-width: 1031px){
     .col-tab{
